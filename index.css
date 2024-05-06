@@ -1,0 +1,87 @@
+.nav-bar{
+    border : 2px solid black;
+    background-color: orange;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.nav-bar ul li{
+    padding: 10px; 
+}
+
+#app-logo{
+    padding: 5px;
+    width: 66px;
+    height: 66px;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+
+    width: 200px;
+    background-color: #f0f0f0;
+}
+
+#res-logo{
+    width: 100%;
+    height: 100px;
+}
+
+.res-card:hover {
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.filter-btn{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#heading{
+    background-color: aquamarine;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 200px;
+    background-color: #f0f0f0;
+    
+}
+
+.btnNameReact{
+    padding: 10px;
+    /* border-radius: 50% ; */
+    width: 80px;
+    height: 50px;
+}
+
+.search{
+    padding: 10px;
+    margin: 5px;
+}
+
+.menu ul li {
+    margin: 5px;
+}

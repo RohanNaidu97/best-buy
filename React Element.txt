@@ -1,0 +1,18 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+//Both are same thing
+
+const heading = React.createElement( 
+    "h1", 
+    {
+        id : "heading"
+    }, 
+    "Hello World from React!");
+
+
+const jsxHeading = <h1 id = "heading" tabIndex="5"> Hello World from JSX! </h1>
+
+const root = ReactDOM.createRoot( document.getElementById("root") );
+
+root.render(jsxHeading);
