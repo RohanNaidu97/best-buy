@@ -1,20 +1,5 @@
-# Namaste React
-
-
-# Parcel
-- Dev Build
-- Local Server
-- HMR = Hot Module Replacement
-- File Matching Algorithms - written in C++
-- Image Optimization
-- Minification
-- Bundling
-- Compressing
-- Consistent Hashing
-- Code Splitting
-- Differential Bundling - support older browser
-- Diagnostic
-- Error Handling
-- HTTPS
-- Tree Shaking - remove unused files
-- Different dev and prod bundles
+Steps to Run the Application
+Check Node Version: Ensure that your Node.js version is at least (your node version) or greater. You can check your Node.js version by running node -v in your terminal.
+Install Dependencies: Navigate to the project folder "pathToTheFolder/Best_Buy" using the terminal. Run npm install to install all the required packages listed in the package.json file.
+Start the Server: After the installation is complete, run npm start to start the local server for the application.
+Access the Application: Once the server is running, you can access the application by opening your web browser and navigating to "http://localhost:1234".
